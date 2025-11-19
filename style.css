@@ -259,3 +259,8 @@ body {
 .footer a:hover {
   color: var(--color-primary);
 }
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
