@@ -41,6 +41,16 @@ body {
   padding: 20px 0;
 }
 
+.hero {
+  background-color: #2f303a;
+  padding: 200px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -84,6 +94,22 @@ body {
   padding: 0;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 50px;
+}
+
+.contacts {
+  display: flex;
+  gap: 40px;
+}
+
 .contact a {
   color: var(--color-secondary-text);
   text-decoration: none;
@@ -102,6 +128,15 @@ body {
   color: var(--color-light);
   text-align: center;
   padding: 150px 0;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 30px;
+}
+
+.benefits-item {
+  width: 270px;
 }
 
 .hero h1 {
@@ -141,6 +176,8 @@ body {
   padding: 0;
 }
 
+
+
 .feature h3 {
   font-size: 14px;
   text-transform: uppercase;
@@ -157,6 +194,11 @@ body {
 ================================== */
 .services {
   padding: 60px 0;
+}
+
+.activity-list {
+  display: flex;
+  gap: 30px;
 }
 
 .services h2 {
@@ -183,6 +225,19 @@ body {
 .team {
   background-color: var(--color-bg-section);
   padding: 60px 0;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+
+.team-item {
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .team h2 {
@@ -229,6 +284,14 @@ body {
   color: var(--color-footer-text);
   padding: 40px 0;
   text-align: left;
+}
+
+
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .footer .logo {
