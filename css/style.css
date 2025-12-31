@@ -118,6 +118,9 @@ body {
 .hero {
   background-color: var(--bg-dark);
   padding: 200px 0;
+  
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
@@ -159,6 +162,7 @@ body {
 .features-list {
   display: flex;
   gap: 30px;
+  justify-content: space-between;
 }
 
 .features-list li {
@@ -194,6 +198,7 @@ body {
 .work-list {
   display: flex;
   gap: 30px;
+  justify-content: center;
 }
 
 /* ===================== */
@@ -202,7 +207,6 @@ body {
 .team {
   background-color: var(--bg-light);
   padding: 94px 0;
-  width: 1px;
 }
 
 .team h2 {
@@ -215,13 +219,14 @@ body {
 .team-list {
   display: flex;
   gap: 30px;
-  font-size: 20px;
+  justify-content: center;
 }
 
 .team-list li {
   background-color: #ffffff;
   text-align: center;
   padding-bottom: 30px;
+  width: 270px;
   border-radius: 0 0 4px 4px;
   box-shadow:
     0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -251,6 +256,11 @@ body {
   color: #ffffff;
 }
 
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer address {
   margin-top: 20px;
   font-style: normal;
@@ -271,4 +281,11 @@ body {
 .footer a:hover,
 .footer a:focus {
   color: var(--accent-color);
+}
+
+/* img */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
